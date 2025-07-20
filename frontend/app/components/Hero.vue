@@ -21,7 +21,7 @@ const props = defineProps({
       <div class="flex flex-wrap gap-4 mt-8">
         <div v-for="button of buttons">
           <NuxtLink v-if="button.label && button.url" :href="button.url"
-            class="inline-flex px-6 py-3 text-white duration-300 bg-green-600 rounded-sm hover:bg-gray-800 transition-color">
+            class="inline-flex px-6 py-3 text-white duration-300 bg-green-600 rounded-sm hover:bg-red-800 transition-color">
             {{ button.label }}</NuxtLink>
         </div>
       </div>
